@@ -3469,6 +3469,56 @@ textarea.form-control-lg {
   background-color: transparent;
 }
 
+.btn-outline-twitter {
+  color: #00acee;
+  border-color: #00acee;
+}
+.btn-outline-twitter:hover {
+  color: #fff;
+  background-color: #00acee;
+  border-color: #00acee;
+}
+.btn-check:focus + .btn-outline-twitter, .btn-outline-twitter:focus {
+  box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
+}
+.btn-check:checked + .btn-outline-twitter, .btn-check:active + .btn-outline-twitter, .btn-outline-twitter:active, .btn-outline-dark.active, .btn-outline-dark.dropdown-toggle.show {
+  color: #fff;
+  background-color: #00acee;
+  border-color: #00acee;
+}
+.btn-check:checked + .btn-outline-twitter:focus, .btn-check:active + .btn-outline-twitter:focus, .btn-outline-twitter:active:focus, .btn-outline-twitter.active:focus, .btn-outline-twitter.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
+}
+.btn-outline-twitter:disabled, .btn-outline-twitter.disabled {
+  color: #212529;
+  background-color: transparent;
+}
+
+.btn-outline-linkedin {
+  color: #0072b1;
+  border-color: #0072b1;
+}
+.btn-outline-linkedin:hover {
+  color: #fff;
+  background-color: #0072b1;
+  border-color: #0072b1;
+}
+.btn-check:focus + .btn-outline-linkedin, .btn-outline-linkedin:focus {
+  box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
+}
+.btn-check:checked + .btn-outline-linkedin, .btn-check:active + .btn-outline-linkedin, .btn-outline-linkedin:active, .btn-outline-dark.active, .btn-outline-dark.dropdown-toggle.show {
+  color: #fff;
+  background-color: #0072b1;
+  border-color: #0072b1;
+}
+.btn-check:checked + .btn-outline-linkedin:focus, .btn-check:active + .btn-outline-linkedin:focus, .btn-outline-linkedin:active:focus, .btn-outline-linkedin.active:focus, .btn-outline-linkedin.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
+}
+.btn-outline-linkedin:disabled, .btn-outline-linkedin.disabled {
+  color: #212529;
+  background-color: transparent;
+}
+
 .btn-link {
   font-weight: 400;
   color: #1abc9c;
@@ -11472,7 +11522,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(var(--bs-secondary-rgb), 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
